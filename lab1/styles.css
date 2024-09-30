@@ -6,7 +6,8 @@
     position: sticky;
     top: 0; 
 
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-width: 500px;
 
     list-style-type: none;
     margin: 0;
@@ -34,23 +35,13 @@ a:hover {
 
 .section-header {
     font-size: 28px;
+    scroll-margin-top: 48px; 
 }
 
 p {
     font-size: 28px;
 }
 
-#S1 {
-    scroll-margin-top: 48px; 
-}
-
-#S2 {
-    scroll-margin-top: 48px; 
-}
-
-#S3 {
-    scroll-margin-top: 48px; 
-}
 
 .section-1 {
     background-image: url('https://img.freepik.com/free-photo/beige-plain-textured-background-fabric-block-prints_53876-121809.jpg?w=1800&t=st=1727732351~exp=1727732951~hmac=816cd43dccd272d6528e4d5bee89de9cd367711a7f8d3d519eeaca9a874fd4a7');
@@ -67,6 +58,13 @@ p {
     background-image: url('https://img.freepik.com/free-photo/beige-plain-textured-background-fabric-block-prints_53876-121809.jpg?w=1800&t=st=1727732351~exp=1727732951~hmac=816cd43dccd272d6528e4d5bee89de9cd367711a7f8d3d519eeaca9a874fd4a7');
     padding: 2%; 
 }
+
+.section-4 {
+    background-image: url('https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg');
+    color: white;
+    padding: 2%;
+}
+
 
 .section-3-wrapper {
     display: grid;
