@@ -50,18 +50,18 @@ p {
 
 .section-1 {
     background-image: url('https://img.freepik.com/free-photo/beige-plain-textured-background-fabric-block-prints_53876-121809.jpg?w=1800&t=st=1727732351~exp=1727732951~hmac=816cd43dccd272d6528e4d5bee89de9cd367711a7f8d3d519eeaca9a874fd4a7');
-    padding: 3%; 
+    padding: 2%; 
 }
 
 .section-2 {
     background-image: url('https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg');
     color: white;
-    padding: 3%; 
+    padding: 2%; 
 }
 
 .section-3 {
     background-image: url('https://img.freepik.com/free-photo/beige-plain-textured-background-fabric-block-prints_53876-121809.jpg?w=1800&t=st=1727732351~exp=1727732951~hmac=816cd43dccd272d6528e4d5bee89de9cd367711a7f8d3d519eeaca9a874fd4a7');
-    padding: 3%; 
+    padding: 2%; 
 }
 
 .section-3-wrapper {
