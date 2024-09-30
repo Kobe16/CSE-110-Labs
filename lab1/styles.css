@@ -1,3 +1,7 @@
+#body {
+    margin: 0;
+}
+
 #navbar {
     position: sticky;
     top: 0; 
@@ -33,7 +37,7 @@ a:hover {
 }
 
 p {
-    font-size: 20px;
+    font-size: 28px;
 }
 
 #S1 {
@@ -67,9 +71,7 @@ p {
 .section-3-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    /* grid-auto-rows: minmax(100px, auto); */
-  
+    gap: 25px;  
 }
 
 .section-3-item {
@@ -80,5 +82,32 @@ p {
     padding: 5%; 
 }
 
+img {
+    max-width: 100%;
+}
 
+/* When screen is smaller than 800px */
+@media (max-width: 800px) {
+    #navbar {
+        display: none;
+    }
 
+    #UC-San-Diego-img {
+        max-width: 75%;
+    }
+
+    .section-header {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .section-3-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;  
+    }    
+    
+ }
